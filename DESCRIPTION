@@ -1,0 +1,12 @@
+Package: sankey5x6strokerisk
+Type: Package
+Title: creates pretty 5X6 diagram with option for white space with specific set of variables 
+Version: 0.1.0
+Author: Simeon Wilson
+Maintainer: Simeon Wilson <simeonwilson@g.ucla.edu>
+Description: this package is made for creating a sankey diagram for a specific type of data input. the inputted data must be a 5x6 dataframe the first column cain be titled anything but it must contain the following variables in any order Obesity, Hypertension, Diabetes, Hypercholesterolemia, and Smoking. columns 2-6 should have the year as the column title and the relevant data for that year below. 
+Depends: ggplot2
+License: s
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
